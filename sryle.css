@@ -1,0 +1,24 @@
+body{background-image: url(healthy.png);
+background-repeat: no-repeat;
+
+
+background-size: cover;
+}
+.div1{background-image: url(div.jpg);
+background-repeat: no-repeat;
+height: 800px;
+width: 400px;
+background-size: contain;
+margin-left: 200px;
+border-radius: 5px;
+list-style: square;
+border-radius: 10px;
+}
+.uf{ margin: 15%;
+color: rgb(51, 22, 96);
+}
+.ul1{margin-left: 35%;
+margin-top: 0px;
+font-size: x-large;
+color: rgb(51, 22, 96);
+}
