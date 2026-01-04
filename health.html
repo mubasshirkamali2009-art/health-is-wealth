@@ -36,27 +36,27 @@ font-family: potta system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Rob
 
 
     <main class="hablu">
-        <div class="div3">
+        <div class="mother">
+            <div class="div3">
             <H1 class="h5">ABOUT ME</H1>
 
     <form action="">
         <label for="name">Your NAME</label>
-<input type="text" name="name" id="name">
+<input type="text" name="name" id="name"required>
 <br><label for="email">Your EMAIL</label>
-<input type="text" name="email" id="name">
-    </form>
-
+<input type="text" name="email" id="name"required>
+  
 
     <fieldset>
         <legend>marritial statas</legend>
             <label for="single">single</label>
-            <input type="radio" name="STATUS" id="single">
+            <input type="radio" name="STATUS" id="single" required>
             <br>
-            <label for="mingle">mingle</label><input type="radio" name="STATUS" id="mingle">
+            <label for="mingle">mingle</label><input type="radio" name="STATUS" id="mingle" required>
         
     </fieldset>
-    <fieldset>
-        <legend>MY HOBBY</legend>
+    <fieldset >
+        <legend>MY HOBBY</legend >
         <label for="book reading">book reading</label>
         <input type="checkbox" name="book reading" id="book reading">
         <label for="farming">farming</label>
@@ -64,10 +64,50 @@ font-family: potta system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Rob
         <label for="gameing">gameing</label>
         <input type="checkbox" name="gameing" id="gameing">
         <label for="writing">writing</label>
-        <input type="checkbox" name="writing" id="writing>
+        <input type="checkbox" name="writing" id="writing">
     </fieldset>
+    <fieldset>
+        <legend>extra info</legend>
+        <textarea cols="40" rows="4" name="" id=""></textarea>
+    </fieldset>
+
+<input type="submit" name="submit" id="submit" value="submit">  
+
+<input type="reset" name="reset" id="reset" value="reset">    
+</form>
 </div>
-  
+  <div class="table">
+    <table>
+        <caption>gym membarship price</caption>
+        br
+        
+        <thead>
+
+        </thead>
+        <tbody>
+            <tr>
+                <td>membarships</td>
+                <td>regular price</td>
+                <td>offer price</td>
+            </tr>
+            <tr>
+              <td>  3 month </td>
+              <td>5000tk</td>
+              <td>2500tk</td>
+            </tr>
+            <tr>
+                <td>6month</td>
+                <td>10000tk</td>
+                <td>5000tk</td>
+            </tr>
+            <tr>
+                <td>lifetime</td>
+                <td>22000tk</td>
+                <td>12500tk</td>
+            </tr>
+        </tbody>
+    </table>
+  </div>
 
     
 
@@ -81,6 +121,8 @@ font-family: potta system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Rob
         <li>not more...</li>
     </ul>
 </div>
+        </div>
+
 </main>
  
 </body>
