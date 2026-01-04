@@ -1,24 +1,40 @@
-body{background-image: url(healthy.png);
-background-repeat: no-repeat;
+body {height: 4000px;
+    background-image: url(healthy.png);
+    background-repeat: no-repeat;
+    background-size: cover;}
 
+    nav li{
+        list-style: none;
+         display: inline;
+         margin-right: 15px;
+        }
+       
+       
+ nav li:hover{
+            background-color: bisque
+         }
 
-background-size: cover;
+.div1 {
+    background-image: url(logo.webp);
+    background-repeat: no-repeat;
+    height: 400px;
+    width: 400px;
+    background-size: contain;
+    margin-left: 200px;
+    border:1px solid ;
+    border-radius: 5px;
+    list-style: square;
+    border-radius: 16px;
+box-shadow: 15px 15px 0 rgba(17, 1, 38, 0.884);}
+
+.uf {
+    /* margin: 15%; */
+   color: rgb(185, 255, 206);
 }
-.div1{background-image: url(div.jpg);
-background-repeat: no-repeat;
-height: 800px;
-width: 400px;
-background-size: contain;
-margin-left: 200px;
-border-radius: 5px;
-list-style: square;
-border-radius: 10px;
-}
-.uf{ margin: 15%;
-color: rgb(51, 22, 96);
-}
-.ul1{margin-left: 35%;
-margin-top: 0px;
-font-size: x-large;
-color: rgb(51, 22, 96);
+
+.ul1 {
+    /* margin-left: 35%; */
+    /* margin-top: 0px; */
+    font-size: x-large;
+     color: rgb(185, 255, 206);
 }
