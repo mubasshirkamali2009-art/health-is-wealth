@@ -1,4 +1,4 @@
-body {height: 4000px;
+body {
     background-image: url(healthy.png);
     background-repeat: no-repeat;
     background-size: cover;}
@@ -20,7 +20,8 @@ body {height: 4000px;
     height: 400px;
     width: 400px;
     background-size: contain;
-    margin-left: 200px;
+       margin-left: 200px;
+       margin-top: 35px;
     border:1px solid ;
     border-radius: 5px;
     list-style: square;
@@ -38,3 +39,13 @@ box-shadow: 15px 15px 0 rgba(17, 1, 38, 0.884);}
     font-size: x-large;
      color: rgb(185, 255, 206);
 }
+.div3{width: 400px;
+height: 600px;
+background-color: antiquewhite;
+border:1px solid ;
+  border-radius: 16px;
+  box-shadow: 15px 15px 0 rgb(88, 85, 80);
+    margin-left: 60%;
+}
+
+.h5{margin-left: 40%;}
